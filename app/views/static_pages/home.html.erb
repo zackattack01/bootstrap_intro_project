@@ -1,1 +1,93 @@
-<h1>Home</h1>
+<style>
+ img {
+ 	display:block;
+ 	margin:auto;
+ }
+
+</style>
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-4 text-center col-md-offset-1">
+			<h1>Embarrassmentpon</h1>
+		</div>
+	</div>
+</div>
+<div class="row">
+
+	<div id="home-carousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#home-carousel" data-slide-to="1"></li>
+	    <li data-target="#home-carousel" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner col-md-4" role="listbox">
+	    <div class="item active">
+	      <img src="<%= image_path 'panda.jpg' %>" alt="an eating panda" class="img-rounded img-responsive">
+	      <div class="carousel-caption">
+	        <h1>Hey</h1>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="<%= image_path 'coupon.jpg' %>" alt="coupon" class="img-rounded img-responsive">
+	      <div class="carousel-caption" style="color:black">
+	        <h1>WE find these</h1>
+	      </div>
+	    </div>
+	    <div class="item">
+	     <div class="carousel-caption" style="color:blue">
+	        <h1>So YOU can do more of this</h1>
+	      </div>
+	      <img src="<%= image_path 'relaxing_panda.jpg' %>" alt="laying down panda" class="img-rounded img-responsive">
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-md-6 col-md-offset-3">
+		<h1><%= "#{Faker::Lorem.words(3).join(' ')}.  " %><small><%= Faker::Lorem.sentence %></small></h1>
+		<p><%= Faker::Lorem.paragraph %></p>
+	</div>	
+</div>
+<div class="row text-center">
+	<div class="col-md-6 col-md-offset-3">
+		<h1><%= "#{Faker::Lorem.words(3).join(' ')}.  " %><small><%= Faker::Lorem.sentence %></small></h1>
+		<p><%= Faker::Lorem.paragraph %></p>
+	</div>	
+</div>
+<div class="row text-center">
+	<div class="col-md-6 col-md-offset-3">
+		<h1><%= "#{Faker::Lorem.words(3).join(' ')}.  " %><small><%= Faker::Lorem.sentence %></small></h1>
+		<p><%= Faker::Lorem.paragraph %></p>
+	</div>	
+</div>
+<div class="row text-center">
+	<div class="col-md-6 col-md-offset-3">
+		<h1><%= "#{Faker::Lorem.words(3).join(' ')}.  " %><small><%= Faker::Lorem.sentence %></small></h1>
+		<p><%= Faker::Lorem.paragraph %></p>
+	</div>	
+</div>
+<div class="row text-center">
+	<div class="col-md-6 col-md-offset-3">
+		<h1><%= "#{Faker::Lorem.words(3).join(' ')}.  " %><small><%= Faker::Lorem.sentence %></small></h1>
+		<p><%= Faker::Lorem.paragraph %></p>
+	</div>	
+</div>
+<div class="row text-center">
+	<div class="col-md-6 col-md-offset-3">
+		<h1><%= "#{Faker::Lorem.words(3).join(' ')}.  " %><small><%= Faker::Lorem.sentence %></small></h1>
+		<p><%= Faker::Lorem.paragraph %></p>
+	</div>	
+</div>
